@@ -8,5 +8,6 @@ def capitalize_words(text):
         capitalized.append(word.capitalize())
     return " ".join(capitalized)
 
-sentence = "hello world from python"
+sentence = input()
 print(capitalize_words(sentence))
+    
